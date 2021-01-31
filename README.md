@@ -26,7 +26,7 @@ For example,
 python convert.py RepVGG-B2-train.pth RepVGG-B2-deploy.pth -a RepVGG-B2
 ```
 
-Then copy `gen_wts.py` to `RepVGG` and generate .wts file, for example
+Then copy `TensorRT-RepVGG/gen_wts.py` to `RepVGG` and generate .wts file, for example
 
 ```
 python gen_wts.py -w RepVGG-B2-deploy.pth -s RepVGG-B2.wts
@@ -35,7 +35,7 @@ python gen_wts.py -w RepVGG-B2-deploy.pth -s RepVGG-B2.wts
 2. build and run
 
 ```
-cd repvgg
+cd TensorRT-RepVGG
 
 mkdir build
 
