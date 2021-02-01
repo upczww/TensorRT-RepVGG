@@ -11,7 +11,7 @@ For the Pytorch implementation, you can refer to [DingXiaoH/RepVGG](https://gith
 
 ```
 git clone https://github.com/DingXiaoH/RepVGG.git
-cd ReoVGG
+cd RepVGG
 ```
 
 You may convert a trained model into the inference-time structure with
